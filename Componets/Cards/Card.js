@@ -35,7 +35,7 @@ const Card = () => {
       <CardWrapper>
           <Fade bottom>
           <div className="row ">
-              {data.map(v=> <div key={v.title} className={"col-md-6 col-lg-4 col-xl-3 cardLink overflow-hidden"}>
+              {data.map(v=> <div key={v.title} className={"col-md-6 col-lg-4 col-xl-3 cardLink overflow-hidden mb-5"}>
               <div className={"text-white rounded-3 overflow-hidden d-flex justify-content-center"} style={{position:"relative", height: "350px"}}>
                             <img className={"w-100 h-100 rounded-3"} style={{objectFit:"cover", position: "absolute" ,top:"0", left:"0"} } src={v.img} alt=""/>
                     <div className={"card_content position-absolute d-flex justify-content-center align-items-center flex-column text-center w-100 h-100 p-3"}>

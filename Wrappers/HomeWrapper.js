@@ -31,6 +31,13 @@ const HomeWrapper = styled.div`
     padding: 100px;
     background-color: #EFE7EE;
   }
-
+@media screen and (max-width: 768px){
+  .home {
+    padding: 100px 10px;
+    .homeCard {
+      width: 100%;
+    }
+  }
+}
 `;
 export default HomeWrapper;
