@@ -9,7 +9,7 @@ const LinkCard = () => {
             <div className="row">
                 {CardLink.map(v => <div className="col-md-6 col-lg-4 col-xl-3 p-3 mb-3" style={{ height: "400px" }}>
                     <div className="rounded-3 overflow-hidden h-100 shadow">
-                        <img src={v.img} className="w-100 h-50" alt="" />
+                        <img src={v.img} className="w-100 h-50" style={{objectFit: "cover"}} alt="" />
                         <div className="h-50 d-flex flex-column justify-content-around align-items-center py-4 text-center">
                             <p className="fw-bold fs-5">{v.title}</p>
                             <p>{v.desc}</p>

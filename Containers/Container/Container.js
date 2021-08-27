@@ -1,11 +1,13 @@
 import ContainerWrapper from "./ContainerWrapper";
 import Header from "../Header";
+import Footer from "../Footer";
 
-const Container = ({children}) => {
+const Container = ({ children }) => {
     return (
         <ContainerWrapper>
-            <Header/>
+            <Header />
             {children}
+            <Footer />
         </ContainerWrapper>
     )
 }

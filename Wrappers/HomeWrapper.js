@@ -35,9 +35,16 @@ const HomeWrapper = styled.div`
   .home {
     padding: 100px 10px;
     .homeCard {
-      width: 100%;
+        width: 100%;
+        padding: 100px 15px;
+      }
     }
-  }
+    .homeCard {
+      padding: 100px 15px;
+      }
+    .homeDesc {
+      padding: 100px 15px;
+    }
 }
 `;
 export default HomeWrapper;

@@ -7,5 +7,8 @@ const LinkCardWrapper = styled.div`
       color: red;
       transition: 0.2s;
   }
+  @media screen and (max-width: 768px) {
+    padding: 30px;
+  }
 `;
 export default LinkCardWrapper;

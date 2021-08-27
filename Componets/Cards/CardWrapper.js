@@ -5,7 +5,7 @@ const CardWrapper = styled.div`
     transition: 1s;
 
     &:hover {
-      transform: translateY(-20px);
+      transform: translateY(-10px);
     }
   }
 
@@ -18,6 +18,9 @@ const CardWrapper = styled.div`
       box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.43);
       transition: 1s;
     }
+  }
+  @media screen and (max-width: 768px) {
+    
   }
 `;
 export default CardWrapper;
